@@ -76,7 +76,7 @@
                                 <select name="province_origin" id="" class="form-control">
                                     <option value="">-</option>
                                     @foreach ($province as $key => $value)
-                                        <option value="{{ $key }}">{{ $value }}</option>
+                                        <option value="{{ $key }}">{{ $value }}</option>                                        
                                     @endforeach
                                 </select>
                             </div>
